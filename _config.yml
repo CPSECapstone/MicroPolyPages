@@ -18,6 +18,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   A machine learning based update scheduler for the windows operating system that adapts
   to the varying schedules of users to ensure updates are as unintrusive as possible.
 
+# this should add a nav bar?
+header_pages:
+  - index.html
+  - contact_issue.md
+  - demo.md
+  - installation.md
+  - licensing.md
+  - about.md
 # Build settings
 markdown: kramdown
 remote_theme: pages-themes/slate@v0.2.0
