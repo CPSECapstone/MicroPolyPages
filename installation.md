@@ -17,4 +17,4 @@ permalink: /install/
     * creates and starts the data collection task
     * setups up a server to request "good times" to update
 
-<p>If any issues are found, report them <a href="/contact_issue_reporting">here</a></p>
+<p>If any issues are found, report them <a href="/MicroPolyPages/contact_issue_reporting/">here</a></p>
