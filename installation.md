@@ -17,4 +17,7 @@ permalink: /install/
     * creates and starts the data collection task
     * setups up a server to request "good times" to update
 
+<h2>5. Utilize HTTP requests to recieve "good times"</h2>
+* Refer to <a href="/MicroPolyPages/demo/">the demo</a> for example requests and how to interpret responses
+
 <p>If any issues are found, report them <a href="/MicroPolyPages/contact_issue_reporting/">here</a></p>
