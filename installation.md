@@ -21,6 +21,6 @@ permalink: /install/
 * Refer to <a href="/MicroPolyPages/demo/">the demo</a> for example requests and how to interpret responses
 
 <h2>6. Changing the file path from test data to rolling data</h2>
-* Add instructions
+* Change line 9 in 'apiServer.py' from "app = create_app(config.ApiDevelopmentConfig)" to "app = create_app(config.ApiProductionConfig)"
 
 <p>If any issues are found, report them <a href="/MicroPolyPages/contact_issue_reporting/">here</a></p>
