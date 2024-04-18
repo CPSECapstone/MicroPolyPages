@@ -20,4 +20,7 @@ permalink: /install/
 <h2>5. Utilize HTTP requests to recieve "good times"</h2>
 * Refer to <a href="/MicroPolyPages/demo/">the demo</a> for example requests and how to interpret responses
 
+<h2>6. Changing the file path from test data to rolling data</h2>
+* Add instructions
+
 <p>If any issues are found, report them <a href="/MicroPolyPages/contact_issue_reporting/">here</a></p>
