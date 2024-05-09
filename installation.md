@@ -13,9 +13,11 @@ permalink: /install/
 <h2>{{"3. Install required dependencies"}}</h2>
 * Run: pip install -r requirements.txt
 
-<h2>3.5. Changing the file path from test data to rolling data</h2>
+<h2>3.5. Set MicroPoly to run in production mode</h2>
 * Run: $env:PRODUCTION_TESTING="true"
     * sets use of production/rolling data file
+* Run: $env:PREPROCESS="true"
+    * sets MicroPoly to preprocess collected data before the model uses it
 
 <h2>{{"4. Start data collection and ML server"}}</h2>
 * Run: python mp-build.py
