@@ -13,7 +13,7 @@ permalink: /install/
 <h2>{{"3. Install required dependencies"}}</h2>
 * Run: python --version (Should be Python 3.11+; Else upgrade)
 * Run: winget install Microsoft.DotNet.SDK.8
-* Run: curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py | python get-pip.py
+* Run: curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \| python get-pip.py
 
 <h2>3.5. Set MicroPoly to run in production mode</h2>
 * Run: $env:PRODUCTION_TESTING="true"
