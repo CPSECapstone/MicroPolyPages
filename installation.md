@@ -10,15 +10,20 @@ permalink: /install/
 <h2>{{"2. Enter the Root Folder of the Project Directory"}}</h2>
 * Using Powershell
 
-<h2>{{"4. Start Data Collection, ML validation, and ML Server"}}</h2>
+<h2>{{"3. Start Data Collection, ML validation, and ML Server"}}</h2>
 * Run: python mp-build.py
-    * May need to update/install dotnet and python
+    * May need to update/install dotnet and python (refer to part 3.5 then return to part 3)
     * Creates and starts the data collection task
     * Creates and starts the validation task and associated sub tasks
     * Setups up a server to request "good times" to update
         * Also adds a task to restart server if it goes down
 
-<h2>5. Utilize HTTP Requests to Recieve "Good Times"</h2>
+<h2>{{"3.5. Install Required Dependencies (If Needed)"}}</h2>
+* Run: python --version (Should be Python 3.12+; Else upgrade)
+* Run: winget install Microsoft.DotNet.SDK.8
+* Run: curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \| python get-pip.py
+
+<h2>4. Utilize HTTP Requests to Recieve "Good Times"</h2>
 * Refer to <a href="/MicroPolyPages/demo/">the demo</a> for example requests and how to interpret responses
 
 <h2>{{"[OPTIONAL] Uninstall MicroPoly"}}</h2>
