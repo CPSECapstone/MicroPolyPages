@@ -43,4 +43,4 @@ layout: home
 * The system shall support Win32 calls or other standard query calls
 
 <h2>Docs</h2>
-* You can find our final presentations from every quarter, final project architectures, and the MicroPoly Technical Specification in the README of the GitHub Repo. There is also information on recompiling the production executable.
+* You can find our final presentations from every quarter, final project architectures, and the MicroPoly Technical Specification in the (README of the GitHub Repo)[https://github.com/CPSECapstone/MicroPoly/blob/update-docs/README.md]. There is also information on recompiling the production executable.
