@@ -8,15 +8,24 @@ permalink: /install/
 <p>Can be found <a href="https://github.com/CPSECapstone/MicroPoly">here</a></p>
 
 <h2>{{"2. Enter the Root Folder of the Project Directory"}}</h2>
-* Using Powershell
+* Using Powershell or an IDE of your choice.
 
-<h2>{{"3. Start Data Collection, ML validation, and ML Server"}}</h2>
+<h2>{{"3. Start Data Collection, API server, and ML validation"}}</h2>
+<h3>Alpha Release (Development Mode)</h3>
 * Run: python mp-build.py
     * May need to update/install dotnet and python (refer to part 3.5 then return to part 3)
     * Creates and starts the data collection task
+    * Sets up a local HTTP server to request "good times" to update
     * Creates and starts the validation task and associated sub tasks
-    * Setups up a server to request "good times" to update
-        * Also adds a task to restart server if it goes down
+    * Gives very meaningful error messages/logs in case the application does not run as expected.
+
+<h3>Beta Release (Production Mode)</h3>
+* Run: start ./production-install.exe
+    * Creates and starts the data collection task
+    * Sets up a local HTTP server to request "good times" to update
+        * Sets up a task to restart the server on login (Server does not persist after a shutdown)
+    * Creates and starts the validation task and associated sub tasks
+    * Will ask for administrator priviledges. 
 
 <h2>{{"3.5. Install Required Dependencies (If Needed)"}}</h2>
 * Run: python --version (Should be Python 3.12+; Else upgrade)
@@ -28,8 +37,9 @@ permalink: /install/
 
 <h2>{{"[OPTIONAL] Uninstall MicroPoly"}}</h2>
 * Run: python mp-uninstall.py
-    * Will remove all created tasks
-    * Can choose to remove all required python libraries
+    * Will remove all created tasks, whether you chose to run the dev or production release.
+    * Can choose to remove all required python libraries installed at build time
+    * Can choose to remove all data created at runtime (In out folder)
 * On completion, can delete the root folder to fully uninstall
 
 <br>
