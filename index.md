@@ -41,3 +41,6 @@ layout: home
 * The ML model shall not exceed 150 MB in size
 * The ML model shall evaluate in 2 seconds or less
 * The system shall support Win32 calls or other standard query calls
+
+<h2>Docs</h2>
+* You can find our final presentations from every quarter, final project architectures, and the MicroPoly Technical Specification in the README of the GitHub Repo. There is also information on recompiling the production executable.
